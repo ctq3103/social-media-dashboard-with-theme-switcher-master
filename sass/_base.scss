@@ -64,7 +64,7 @@ body {
 	font-weight: 300;
 	line-height: 1.6;
 	width: auto;
-	max-width: 144rem;
+	max-width: 110rem;
 	margin: 0 auto;
 
 	&.light {
@@ -76,7 +76,6 @@ body {
 .background-box {
 	background-color: $color-dark-top-bg;
 	position: absolute;
-	max-width: 144rem;
 	width: 100%;
 	height: 24.5rem;
 	z-index: -10;
