@@ -1,0 +1,65 @@
+%text {
+	font-family: $font-primary;
+}
+
+.text-1 {
+	@extend %text;
+	font-size: 6rem;
+	font-weight: 700;
+	color: $color-dark-text-2;
+	body.light & {
+		color: $color-light-text-2;
+	}
+}
+
+.text-2 {
+	@extend %text;
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: $color-dark-text-2;
+	body.light & {
+		color: $color-light-text-2;
+	}
+}
+
+.text-3 {
+	@extend %text;
+	font-size: 2rem;
+	font-weight: 700;
+	color: $color-dark-text-1;
+	body.light & {
+		color: $color-light-text-1;
+	}
+}
+
+.text-4 {
+	@extend %text;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: $color-dark-text-1;
+	body.light & {
+		color: $color-light-text-1;
+	}
+}
+
+.text-5 {
+	@extend %text;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: $color-dark-text-1;
+	body.light & {
+		color: $color-light-text-1;
+	}
+}
+
+.change {
+	color: $color-green;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.negative-change {
+	color: $color-red;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
