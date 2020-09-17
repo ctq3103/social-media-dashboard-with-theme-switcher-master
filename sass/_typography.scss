@@ -26,9 +26,9 @@
 	@extend %text;
 	font-size: 2rem;
 	font-weight: 700;
-	color: $color-dark-text-1;
+	color: $color-dark-text-2;
 	body.light & {
-		color: $color-light-text-1;
+		color: $color-light-text-2;
 	}
 }
 

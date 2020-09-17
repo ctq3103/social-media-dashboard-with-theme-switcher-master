@@ -124,9 +124,9 @@ body {
 .text-3 {
   font-size: 2rem;
   font-weight: 700;
-  color: #8b97c6; }
+  color: white; }
   body.light .text-3 {
-    color: #63687e; }
+    color: #1e202a; }
 
 .text-4 {
   font-size: 1.4rem;
